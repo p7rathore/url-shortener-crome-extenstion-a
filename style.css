@@ -1,0 +1,101 @@
+.wripper {
+  width: 400px;
+  height: 500px;
+}
+.Url-box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.input {
+  width: 320px;
+  height: 40px;
+  background-color: rgb(240, 240, 240);
+  border: none;
+}
+.input:focus {
+  outline: none;
+}
+.btn {
+  width: 70px;
+  height: 40px;
+  background-color: rgb(37, 37, 92);
+  border-radius: 2px;
+  cursor: pointer;
+}
+.fa-paper-plane {
+  font-size: 27px;
+  color: white;
+}
+
+/* ===================== result ========================  */
+.result {
+  height: auto;
+  width: 100%;
+  top: 30px;
+  position: relative;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 12px;
+}
+.links {
+  width: 100%;
+  height: auto;
+  background-color: beige;
+  border-radius: 5px;
+}
+.link-text {
+  text-align: center;
+  font-weight: bold;
+}
+
+/*  ========================= QR code ======================*/
+.Qr-code {
+  width: 400px;
+  height: auto;
+  margin-top: 30px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.Qr-image {
+  width: 100%;
+  height: auto;
+}
+.button-box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: end;
+}
+.downloade-qr-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: rgb(37, 37, 92);
+}
+.fa-arrow-down {
+  font-size: 25px;
+  color: white;
+}
+/* ================ lodder ====== */
+.lodder-link {
+  text-align: center;
+  display: none;
+}
+.error-input-empty {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+  display: none;
+}

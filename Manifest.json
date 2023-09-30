@@ -1,0 +1,16 @@
+{
+  "name": "URL Shortener",
+  "description": "A URL Shortener extension",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "/images/16.png",
+    "32": "/images/32.png",
+    "64": "/images/64.png"
+  }
+}
